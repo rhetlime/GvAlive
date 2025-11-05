@@ -18,4 +18,4 @@ jobs:
         uses: joelwmale/webhook-action@master
         with:
           url: "https://api.groupme.com/v3/bots/post"
-          body: '{"text" : "baohao active", "bot_id" : "${{ secrets.GM_BOT_ID }}" }'
+          body: '{"text" : "baohao rich", "bot_id" : "${{ secrets.GM_BOT_ID }}" }'
